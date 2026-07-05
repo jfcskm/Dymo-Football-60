@@ -70,7 +70,7 @@ section{
     height:100%;
     object-fit:cover;
 
-    object-position:82% center;
+    object-position:85% center;
 
     transform:scale(1.06);
 
@@ -108,7 +108,7 @@ section{
     min-height:100vh;
     max-width:1280px;
     margin:0 auto;
-    padding:0 42px;
+    padding:0 60px;
     display:flex;
     flex-direction:column;
     justify-content:center;
