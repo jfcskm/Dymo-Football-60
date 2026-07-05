@@ -173,13 +173,9 @@ section{
 ========================== */
 
 .problem{
-
-    background:#ffffff;
-
+    background:#f7f7f4;
     color:#111;
-
-    padding:140px 40px;
-
+    padding:110px 40px 120px;
 }
 
 .problem .container{
