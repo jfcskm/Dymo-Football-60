@@ -1,10 +1,69 @@
-* {
-  box-sizing: border-box;
+/* =========================================
+   Dymo® Football 60
+========================================= */
+
+:root{
+
+    --black:#060606;
+    --white:#ffffff;
+
+    --gold:#C6A86A;
+
+    --gray:#888888;
+
+    --max-width:1280px;
+
+    --radius:24px;
+
 }
 
-body {
-  margin: 0;
-  font-family: "Helvetica Neue", Arial, "Hiragino Sans", "Yu Gothic", sans-serif;
-  background: #05070b;
-  color: #ffffff;
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+html{
+
+    scroll-behavior:smooth;
+
+}
+
+body{
+
+    background:var(--black);
+
+    color:var(--white);
+
+    font-family:
+    "Helvetica Neue",
+    "Yu Gothic",
+    sans-serif;
+
+    overflow-x:hidden;
+
+}
+
+img{
+
+    display:block;
+
+    width:100%;
+
+}
+
+section{
+
+    width:100%;
+
+    padding:120px 40px;
+
+}
+
+.container{
+
+    max-width:var(--max-width);
+
+    margin:auto;
+
 }
